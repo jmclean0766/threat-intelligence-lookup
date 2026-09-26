@@ -46,7 +46,7 @@ Do not store or commit the API key in the project.
 ### Single Indicator
 
 ```bash
-python3 threat_intel.py <indicator> <target>
+python3 threat_intelligence_lookup.py <indicator> <target>
 ```
 
 Supported indicator types:
