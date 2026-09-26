@@ -58,16 +58,16 @@ ip | domain | url | hash
 Examples:
 
 ```bash
-python3 threat_intel.py ip 8.8.8.8
-python3 threat_intel.py domain example.com
-python3 threat_intel.py url https://example.com
-python3 threat_intel.py hash <file-hash>
+python3 threat_intelligence_lookup.py ip 8.8.8.8
+python3 threat_intelligence_lookup.py domain example.com
+python3 threat_intelligence_lookup.py url https://example.com
+python3 threat_intelligence_lookup.py hash <file-hash>
 ```
 
 ### Batch Processing
 
 ```bash
-python3 threat_intel.py batch targets.txt
+python3 threat_intelligence_lookup.py batch batch_target_file.txt
 ```
 
 The input file contains one indicator per line. Blank lines are ignored.
